@@ -22,6 +22,10 @@ alias nbp='npm run build-prod'
 alias nt='npm run test'
 alias np='npm publish'
 
+function nr() {
+	npm run $1
+}
+
 # code
 alias c='code .'
 
