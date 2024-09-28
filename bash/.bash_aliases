@@ -7,6 +7,8 @@ alias dcd='docker compose down'
 alias dcs='docker compose stop'
 alias dcrs='docker compose restart'
 alias dlo='docker compose logs -f'
+alias dcr='docker compose run'
+alias dce='docker compose exec'
 
 function dsn() {
 	# stop containers by name
