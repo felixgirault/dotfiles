@@ -2,7 +2,7 @@
 alias docker-compose="docker compose"
 alias dps='docker ps'
 alias dsp='docker stop $(docker ps -aq)'
-alias dcu='docker compose up -d'
+alias dcu='docker compose up -d --remove-orphans'
 alias dcd='docker compose down'
 alias dcs='docker compose stop'
 alias dcrs='docker compose restart'
