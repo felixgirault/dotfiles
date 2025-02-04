@@ -27,3 +27,4 @@ sudo apt install gimp
 sudo apt install git-cola
 sudo apt install inkscape
 sudo apt install redshift
+sudo apt install stow
