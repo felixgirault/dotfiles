@@ -1,0 +1,44 @@
+# Useful to set overrides that shouldn't be committed in here,
+# typically user info, signing key, ...
+[include]
+	path = .gitconfig.private
+
+# @see https://blog.gitbutler.com/how-git-core-devs-configure-git
+[column]
+	ui = auto
+[branch]
+	sort = -committerdate
+[tag]
+	sort = version:refname
+[init]
+	defaultBranch = main
+[diff]
+	algorithm = histogram
+	colorMoved = plain
+	mnemonicPrefix = true
+	renames = true
+[push]
+	default = simple
+	autoSetupRemote = true
+	followTags = true
+[pull]
+    rebase = true
+[fetch]
+	prune = true
+	pruneTags = true
+	all = true
+[help]
+	autocorrect = prompt
+[rerere]
+	enabled = true
+	autoupdate = true
+[rebase]
+	autoSquash = true
+	autoStash = true
+	updateRefs = true
+
+# git-cola
+[cola]
+	tabwidth = 3
+	spellcheck = false
+	theme = flat-dark-blue
