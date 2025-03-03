@@ -34,6 +34,7 @@ alias c='code .'
 # git
 alias gcf='git commit --fixup'
 alias gpp='git push origin $(git branch --show-current)'
+alias gpt='git push origin $(git branch --show-current) --tags'
 alias gpf='git push origin $(git branch --show-current) --force-with-lease'
 alias gpff='git push origin $(git branch --show-current) --force'
 alias grc='git rebase --continue'
